@@ -1,0 +1,146 @@
+/* -------------start breadcrumb --------------- */
+#breadcrumd {
+  background: url(../img/bg-breadscrumb.png) no-repeat center/cover;
+}
+.breadcrumb {
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+  padding: 6rem 0;
+}
+.breadcrumb-item {
+  font-size: 0.875rem;
+}
+.breadcrumb-link {
+  color: var(--color-white);
+  text-decoration: none;
+}
+.breadcrumb-link span {
+  margin-left: 10px;
+}
+.breadcrumb-item + .breadcrumb-item {
+  padding-left: 0.875rem;
+}
+.breadcrumb-item.active {
+  color: var(--color-white);
+}
+.breadcrumb-item + .breadcrumb-item::before {
+  float: left;
+  padding-right: 0.875rem;
+  color: var(--color-white);
+  content: ">";
+}
+/* -------------end breadcrumb --------------- */
+/* -------------start content------------------ */
+#news-content {
+  padding: 3.125rem;
+}
+.news-content__card.card {
+  border: none;
+  border-radius: none;
+  text-decoration: none;
+}
+.news-content__body {
+  padding: 0;
+  padding-top: 0.25rem;
+}
+.news-content__title {
+  font-size: 1.375rem;
+  color: var(--color-title);
+  margin-bottom: 0;
+}
+.news-content__card.card:hover .news-content__title {
+  color: var(--color-secondary);
+}
+.news-content__text > .text-muted {
+  display: inline-block;
+  padding-left: 1rem;
+  position: relative;
+  margin-bottom: 0.25rem;
+}
+.news-content__text > .text-muted:after {
+  content: url("../img/ic-time.png");
+  position: absolute;
+  top: 45%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 13px;
+  height: 13px;
+}
+.news-content__text {
+  font-size: 0.8125rem;
+  color: var(--color-text-2);
+  line-height: 1.846;
+}
+/* -------------end content------------------ */
+/* -------------start navigation ------------- */
+.news-navigation {
+  padding: 1.875rem 0;
+}
+.page-item > .page-link {
+  background-color: var(--color-secondary);
+  color: var(--color-white);
+  border: none;
+  outline: none;
+}
+.page-item + .page-item {
+  margin-left: 0.25rem;
+}
+.page-item:first-child .page-link {
+  border-top-left-radius: 0rem;
+  border-bottom-left-radius: 0rem;
+}
+.page-item:last-child .page-link {
+  border-top-right-radius: 0rem;
+  border-bottom-right-radius: 0rem;
+}
+/* -------------end navigation ------------- */
+/* ----------- start policy---------------- */
+.policy-box {
+  padding: 1rem;
+  border: 1px solid var(--color-border);
+  font-size: 1rem;
+  color: var(--color-policy);
+}
+.policy-box + .policy-box {
+  margin-top: 0.75rem;
+}
+.policy-box p {
+  text-indent: 2rem;
+  line-height: 1.563;
+  position: relative;
+}
+.policy-box:nth-child(2) p {
+  text-indent: 2.75rem;
+}
+.policy-box p::before {
+  position: absolute;
+  top: 0;
+  left: -2rem;
+  width: 27px;
+  height: 27px;
+  object-fit: cover;
+}
+.policy-box:nth-child(1) p::before {
+  content: url("../img/ic-like.png");
+}
+.policy-box:nth-child(2) p::before {
+  content: url("../img/ic-delivery.png");
+  left: -2.75rem;
+}
+.policy-box:nth-child(3) p::before {
+  content: url("../img/ic-clock.png");
+}
+
+/* ----------- end policy---------------- */
+
+/* ----------- start ads---------------- */
+.siderbar-ads {
+  margin-top: 2.5rem;
+}
+.ads__img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+/* ----------- end ads---------------- */

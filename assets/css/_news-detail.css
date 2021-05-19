@@ -1,0 +1,32 @@
+#news-detail {
+  padding: 3.125rem;
+}
+.news-detail__title {
+  font-size: 1.5rem;
+  color: var(--color-title);
+}
+.news-detail__time {
+  font-size: 0.8125rem;
+  color: var(--color-text-2);
+  position: relative;
+  display: inline-block;
+  padding-left: 1rem;
+  margin: 0.75rem 0 1.25rem;
+}
+.news-detail__time:before {
+  content: url("../img/ic-time.png");
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 17px;
+  height: 17px;
+}
+.news-detail__text {
+  font-size: 0.875rem;
+  color: var(--color-text-2);
+  line-height: 1.714;
+}
+.news-detail__img {
+  max-width: 600px;
+}

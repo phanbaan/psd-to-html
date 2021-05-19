@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>foody</title>
+    <!-- add favicon  -->
+
+    <link rel="icon" type="image/png" href="./assets/img/favicon.png"/>
+
+    <!-- bootstrap css file -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+
+    <!-- owl carousel css file -->
+    <link rel="stylesheet" href="./assets/css/owl.carousel.min.css" />
+
+    <!--  responsive css file -->
+    <link rel="stylesheet" href="./assets/css/_responsive.css">
+
+    <!-- custom css file -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <!-- ============== start header============== -->
+    <header class="header">
+      <div class="header-menu">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container px-0">
+            <a class="navbar-brand header-menu__logo-box" href="#">
+              <img
+                src="/assets/img/logo.png"
+                alt="logo"
+                class="header-menu__logo"
+              />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div class="me-auto"></div>
+              <ul class="navbar-nav mb-2 mb-lg-0 navbar__list">
+                <li class="nav-item navbar__item">
+                  <a
+                    class="nav-link navbar__link active"
+                    aria-current="page"
+                    href="index.html"
+                    >Trang chủ</a
+                  >
+                </li>
+                <li class="nav-item navbar__item">
+                  <a class="nav-link navbar__link" href="#">Thịt tươi</a>
+                </li>
+                <li class="nav-item navbar__item">
+                  <a class="nav-link navbar__link" href="#">rau sạch</a>
+                </li>
+                <li class="nav-item navbar__item">
+                  <a class="nav-link navbar__link" href="#">Quả ngọt</a>
+                </li>
+                <li class="nav-item navbar__item">
+                  <a class="nav-link navbar__link" href="#">Cẩm nang</a>
+                </li>
+                <li class="nav-item navbar__item">
+                  <a class="nav-link navbar__link" href="#">Liên hệ</a>
+                </li>
+                <li class="nav-item navbar__item">
+                  <a class="nav-link navbar__link" href="#">Thanh toán</a>
+                </li>
+                <div class="header-right">
+                  <div class="search-box">
+                    <input
+                      type="text"
+                      placeholder="enter product ..."
+                      class="search-box__input"
+                    />
+                    <button class="search-box__btn">
+                      <img
+                        src="assets/img/search.png"
+                        alt=""
+                        class="search-box__icon"
+                      />
+                    </button>
+                  </div>
+                  <a class="cart" href="#"
+                    ><img
+                      src="./assets/img/cart.png"
+                      alt=""
+                      class="cart__img"
+                    />
+                    <span>3</span>
+                  </a>
+                </div>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- ============== end header============== -->
+
+    <!-- ============== start slider ============== -->
+    <div class="slider">
+      <div class="container-fluid px-0">
+        <div class="owl-carousel owl-theme" id="slider-carousel">
+          <div class="slider__item">
+            <img src="assets/img/slider1.png" alt="" />
+          </div>
+          <div class="slider__item">
+            <img src="assets/img/slider2.jpg" alt="" />
+          </div>
+          <div class="slider__item">
+            <img src="assets/img/slider1.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ============== end slider ============== -->
+
+    <!-- ==============  start feature ================ -->
+    <div id="feature">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="feature-box feature-box__one text-center">
+              <a href="category-news.html" class="feature-box__title">Thực phẩm</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="feature-box feature-box__two text-center">
+              <a href="category-product.html" class="feature-box__title">Rau sạch</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="feature-box feature-box__three text-center">
+              <a href="category-news.html" class="feature-box__title">Trái cây</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ============= start feature ================ -->
+
+    <!-- ============== start product new ================ -->
+    <div id="product-new">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="product-new__title text-center">
+              <h3 class="product-new__title-text">Thực phẩm mới nhất</h3>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="owl-carousel owl-theme product-new">
+            <div class="product-new__item text-center">
+              <a href="detail-product.html" class="product-new__img-box">
+                <img
+                  src="assets/img/product-new1.png"
+                  alt=""
+                  class="product-new__img"
+                />
+              </a>
+              <div class="product-new__content">
+                <h3 class="product-new__text">Xà lách lâm đồng</h3>
+                <p class="product-new__price">25.000 VNĐ</p>
+                <a href="#" class="btn-cart">Thêm vào giỏ hàng</a>
+              </div>
+            </div>
+             <div class="product-new__item text-center">
+              <a href="detail-product.html" class="product-new__img-box">
+                <img
+                  src="assets/img/product-new-2.png"
+                  alt=""
+                  class="product-new__img"
+                />
+              </a>
+              <div class="product-new__content">
+                <h3 class="product-new__text">Xà lách lâm đồng</h3>
+                <p class="product-new__price">25.000 VNĐ</p>
+                <a href="#" class="btn-cart">Thêm vào giỏ hàng</a>
+              </div>
+            </div>
+             <div class="product-new__item text-center">
+              <a href="detail-product.html" class="product-new__img-box">
+                <img
+                  src="assets/img/product-new-3.png"
+                  alt=""
+                  class="product-new__img"
+                />
+              </a>
+              <div class="product-new__content">
+                <h3 class="product-new__text">Xà lách lâm đồng</h3>
+                <p class="product-new__price">25.000 VNĐ</p>
+                <a href="detail-product.html" class="btn-cart">Thêm vào giỏ hàng</a>
+              </div>
+            </div>
+             <div class="product-new__item text-center">
+              <a href="detail-product.html" class="product-new__img-box">
+                <img
+                  src="assets/img/product-new-4.png"
+                  alt=""
+                  class="product-new__img"
+                />
+              </a>
+              <div class="product-new__content">
+                <h3 class="product-new__text">Xà lách lâm đồng</h3>
+                <p class="product-new__price">25.000 VNĐ</p>
+                <a href="#" class="btn-cart">Thêm vào giỏ hàng</a>
+              </div>
+            </div>
+             <div class="product-new__item text-center">
+              <a href="detail-product.html" class="product-new__img-box">
+                <img
+                  src="assets/img/product-new-4.png"
+                  alt=""
+                  class="product-new__img"
+                />
+              </a>
+              <div class="product-new__content">
+                <h3 class="product-new__text">Xà lách lâm đồng</h3>
+                <p class="product-new__price">25.000 VNĐ</p>
+                <a href="#" class="btn-cart">Thêm vào giỏ hàng</a>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ============== end product new ================ -->
+
+    <!-- ============= start news ================== -->
+    <div id="home-news">
+      <div class="container">
+        <div class="row">
+          <div class="home-news__title text-center">
+            <h3 class="home-news__title-text">
+              Cẩm nang nấu ăn
+            </h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="home-news__item">
+             <a href="" class="home-news__img-box text-center">
+                <img src="assets/img/home-news-1.png" alt="" class="home-news__img">
+             </a>
+              <div class="home-news__content">
+                <h3 class="home-news__text">
+                  Thịt bò hầm nấm
+                </h3>
+                <p class="home-news__des">
+                  chúng ta vẫn biết rằng, làm việc với một đoạn văn bản dễ đọc và rõ nghĩa dễ gây rối trí và cản trở việc tập trung vào yếu tố trình bày văn bản [...]
+                </p>
+              </div>
+            </div>
+          </div>
+           <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="home-news__item">
+              <a href="#" class="home-news__img-box text-center">
+                <img src="assets/img/home-news-2.png" alt="" class="home-news__img">
+              </a>
+              <div class="home-news__content">
+                <h3 class="home-news__text">
+                  Dạ dày trộn cay
+                </h3>
+                <p class="home-news__des">
+                  chúng ta vẫn biết rằng, làm việc với một đoạn văn bản dễ đọc và rõ nghĩa dễ gây rối trí và cản trở việc tập trung vào yếu tố trình bày văn bản [...]
+                </p>
+              </div>
+            </div>
+          </div>
+           <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="home-news__item">
+             <a href="" class="home-news__img-box text-center">
+                <img src="assets/img/home-news-3.png" alt="" class="home-news__img">
+             </a>
+              <div class="home-news__content">
+                <h3 class="home-news__text">
+                 Bí quyết nấu ăn ngon
+                </h3>
+                <p class="home-news__des">
+                  chúng ta vẫn biết rằng, làm việc với một đoạn văn bản dễ đọc và rõ nghĩa dễ gây rối trí và cản trở việc tập trung vào yếu tố trình bày văn bản [...]
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ============= end news ================== -->
+
+    <!-- ============== start footer==================== -->
+    <footer>
+     <div class="footer-top">
+        <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="footer__title">Trụ sở chính</div>
+            <p class="footer__text">Số 6A8A, Thanh Xuân Bắc, Phường Thanh Xuân Bắc, Quận Thanh Xuân, Thành phố Hà Nội.</p>
+            <p class="footer__text">Điện thoại: 04.3311.3998</p>
+            <p class="footer__text">Fax: 04.3311.3996</p>
+          </div>
+           <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="footer__title">Chinh nhánh Đà Nẵng</div>
+            <p class="footer__text">Số 6A8A, Thanh Xuân Bắc, Phường Thanh Xuân Bắc, Quận Thanh Xuân, Thành phố Hà Nội.</p>
+            <p class="footer__text">Điện thoại: 04.3311.3998</p>
+            <p class="footer__text">Fax: 04.3311.3996</p>
+          </div>
+           <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="footer__title">Chi nhánh Hồ Chí Minh</div>
+            <p class="footer__text">Số 6A8A, Thanh Xuân Bắc, Phường Thanh Xuân Bắc, Quận Thanh Xuân, Thành phố Hà Nội.</p>
+            <p class="footer__text">Điện thoại: 04.3311.3998</p>
+            <p class="footer__text">Fax: 04.3311.3996</p>
+          </div>
+        </div>
+      </div>
+     </div>
+     <div class="footer-copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <p class="copyright text-center">Copyright &#169; - All rights reserved </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- ============== END footer==================== -->
+
+    <!-- jquery js file -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+
+    <!-- bootstrap js file -->
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- owl carousel js file -->
+    <script src="assets/js/owl.carousel.min.js"></script>
+
+    <!-- custom js file -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

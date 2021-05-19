@@ -1,0 +1,24 @@
+/* import fonts to font.css */
+
+@import url(./font.css);
+
+/* import css variable */
+@import url(./_variables.css);
+
+/* import home css */
+@import url(./_home.css);
+
+/* import category-news css */
+@import url(./_category-news.css);
+
+/*  import css news-detail */
+@import url("./_news-detail.css");
+
+/*  import css category-product */
+@import url("./_category-product.css");
+
+/* import css detail product */
+@import url(./_detail-product.css);
+
+/* import css cart */
+@import url(./_cart.css);
